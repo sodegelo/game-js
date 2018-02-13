@@ -1,0 +1,11 @@
+git init
+ git status
+ git add . (é .para todos ou nome do arquivo especifico) Adiciona arquivos para serem commitados
+git commit -m "Nome do Comit" (Faz um commit)
+git log --oneline (Pega o endereço da Raiz do repositorio)
+
+git remote add origin https://github.com/sodegelo/git-test.git
+
+git push -u origin master
+
+git checkout adeddc1 index.html (NO lugar do adeddc1 deve ser colocado o endereço do commit que deseja voltar usando o comando <git log --oneline> para ver o endereço de cada commit )

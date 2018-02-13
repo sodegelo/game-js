@@ -1,0 +1,39 @@
+1° Passo
+npm init (Configurar o packa.json)
+	Package name: opicional enter
+	version:opicional enter
+	descrition: opicional enter
+	Entry point : index.html (caso seja outro tipo index.js colocar)
+	test:opicional enter
+	git repository: Automatico, mas se quiser pode colocar
+	keywords: opicional enter
+	author: Seu nome
+yes enter
+
+2° Passo
+npm install lite-server --save-dev
+(Ira instalar o servidor e os pacotes do NODES)
+
+3° Passo
+Abrir o arquivo package.json
+e inserir as seguintes linhas:
+	"scripts": {
+ 
+		"start": "npm run lite",
+		"test": "echo \"Error: no test specified\" && exit 1"
+,	"lite":"lite-server"
+ }, 
+	Agora se quiser rodar ou testar digite npm start
+	- irá abrir o browser com as ultimas alterações da pagina
+	- Pode ser alterado e testado em tempo real
+4° Passo
+Criar o arquivo .gitinore na raiz do projeto
+escrever dentro node_modules
+	este arquivo vai ignorar os dados do nodes
+	Digite no git bash
+	- git status
+	- git add .
+	- git commit -m "Nome do seu comit"
+	- git push -u origin master
+	
+	
